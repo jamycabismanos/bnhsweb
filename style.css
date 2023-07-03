@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#hero {
+  width: 100%;
+  height: 100vh;
+  background: url("images/oval.jpg") bottom;
+  background-size: cover;
+  position: relative;
+  padding: 0;
+}
+
+#hero h1 {
+    color: aliceblue;
+    font-weight: bolder;
+}
+
+.about {
+  padding: 80px 0;
+}
+
+.about:before {
+  content: "";
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.about .about-img {
+  position: relative;
+  transition: 0.5s;
+}
+
+.about .about-img img {
+  max-width: 100%;
+  border: 4px solid rgba(255, 255, 255, 0.2);
+  position: relative;
+}
+
+.section-title {
+    color: darkgreen
+}
+
+.about .content {
+  position: relative;
+}
+
+.about .content h3 {
+  font-weight: 600;
+  font-size: 26px;
+}
+
+.about .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about .content ul li {
+  padding-bottom: 10px;
+}
+
+.about .content ul i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #11cc49;
+}
+
+.history_par {
+  margin-bottom: 1rem;
+}
+
+
+@media (min-width: 1024px) {
+  .about {
+    background-attachment: fixed;
+  }
+}
+
+#about-page p {
+    color: azure;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+#programs-page p {
+    color: azure;
+    font-weight: 800;
+    font-size: 20px;
+}
